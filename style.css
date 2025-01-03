@@ -8,7 +8,7 @@
 }
 
 #jumbotron > h2 {
-  color: white;
+  color: rgb(20, 224, 98);
   text-align: center;
 }
 
@@ -151,3 +151,7 @@ footer {
     margin-right: 1rem;
   }
 }
+
+  .weatherData {
+  color:  rgb(20, 224, 98);
+  }
