@@ -3,7 +3,7 @@ import html from "html-literal";
 export default state => html`
 <section id="jumbotron">
     <h2 class="weatherData">SavvyCoders JavaScript Fullstack Bootcamp</h2>
-    <a href="index.html">"Call to Action" "Button"</a>
+    <a href="/order">"Call to Action" "Button"</a>
     <h3 class="weatherData">
     The weather in ${state.weather.city} is ${state.weather.description}.
     Temperature is ${state.weather.temp}F, and it feels like
